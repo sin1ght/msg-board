@@ -1,0 +1,64 @@
+@import './variables.scss';
+
+.comment-input{
+    width: 100%;
+    background: white;
+    // margin: 5vh auto;
+    margin-top: 5vh;
+    padding:1rem 3%;
+    box-sizing: border-box;
+
+    .cancel-reply{
+        color:$theme_color;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+
+        &:hover{
+            color:red;
+        }
+    }
+
+    .labels{
+        display: flex;
+        margin-bottom: 0.5rem;
+        p{
+            width: 32%;
+            margin-right: 2%;
+            span{
+                color: red;
+            }
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .inputs{
+        input{
+            width: 32%;
+            margin-right: 2%;
+            padding: 0.5rem;
+            border:1px solid #d9d5d5;
+            border-radius: 5px;
+
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .alert-danger,.alert-success{
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+        border:1px solid #d9d5d5;
+        border-radius: 5px;
+        margin-top: 1rem;
+        padding:0.5rem;
+    }
+}

@@ -1,0 +1,16 @@
+.comment-page{
+    .comment-list{
+        width: 100%;
+        min-height: 80vh;
+        background: white;
+        padding: 1rem;
+        box-sizing: border-box;
+
+        header{
+            border-bottom: 1px solid gray;
+            padding-bottom: 1rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
